@@ -5,6 +5,7 @@
             padding: 0%;
             top: 0;
             left: 0;
+            position: relative;
         }
         
        
@@ -39,8 +40,9 @@
         border-radius: 50%;
         border-style: none;
         border-color: white;
-        margin-left: 90vw;
-        margin-top: 43vh;
+        bottom: 5px;
+        right: 100px;
+        z-index: 999;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      }
 
@@ -132,7 +134,7 @@
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
-            margin-top: -30vh;  /* try float rpoperty after removing this */
+            margin-top: -30vh;  
             /* background-color: black; */
             
         }
@@ -170,7 +172,7 @@
             height: 48.5vh;
             padding-left: 1.5vw;
             padding-top: 1vh;
-            padding-right: 10vw;
+            padding-right: 10px;
             /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
             
             
@@ -277,7 +279,7 @@
             letter-spacing: 0.04em;
             text-align: center;
 
-            /* why box are not centering vertically */
+            
             
 
         }
@@ -291,6 +293,7 @@
         
        
         #form-info{
+            position: relative;
             /* background-color: yellow; */
             width: 55vw;
             height: 60vh;
@@ -330,6 +333,7 @@
             background-color: black;
             color: white;
             width: 170px;
+            position: absolute;
             height: 60px;
             font-family: Roboto;
             font-size: 20px;
@@ -337,8 +341,9 @@
             line-height: 35px;
             letter-spacing: 0.05em;
             text-align: center;
-            margin-top: 15vh;
-            margin-left: 50vw;
+            /* Position the button absolutely within the container */
+            bottom: 20px; /* Distance from the bottom edge of the container */
+            right: 20px;
             border-radius: 9px;
 
 
